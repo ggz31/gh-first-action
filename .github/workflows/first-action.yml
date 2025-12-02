@@ -3,7 +3,7 @@ name: First Workflow
 on: workflow_dispatch
 jobs: 
   first-job: 
-    runs-on: 
+    runs-on: ubuntu-latest
     steps:
       - name: Print greeting
         # comando que será executado na linha de comando
